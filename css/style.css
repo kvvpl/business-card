@@ -9,17 +9,21 @@ html {
   }
 
   .body{
-      width: 100vw;
-      height: 100vh;
+      /* width: 100vw; */
+      min-height: 100vh;
       background-color: #2C2141;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       
   }
   .main{
       width: 624px;
-      height: 320px;
+      /* height: 320px; */
       background-color: #F8F8F8;
       border-radius: 16px;
-      margin: 0 auto;
+      margin: 16px;
+
   }
 
   .avatar{
